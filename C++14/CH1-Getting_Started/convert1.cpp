@@ -9,7 +9,6 @@ int main(int argc, char *argv[]) {
      cin >> ctemp;
      ftemp = (ctemp * 1.8) + 32;
      cout << "Fahrenheit temp is: " << ftemp;
+
      return 0;
 }
-
-
