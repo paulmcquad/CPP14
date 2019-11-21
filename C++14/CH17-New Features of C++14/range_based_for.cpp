@@ -6,15 +6,15 @@ using namespace std;
 #define SIZE_OF_ARRAY 5
 
 int main(int argc, char *argv[]) {
-	
+
      int arr[SIZE_OF_ARRAY];
      int total = 0;
-     
+
      // For each element, prompt for a value,
      //   store, and add to total.
      //
      for (int& n : arr) {
-          cout << "Enter array value: ":
+          cout << "Enter array value: ";
           cin >> n;
           total += n;
      }
