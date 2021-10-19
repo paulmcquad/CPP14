@@ -3,12 +3,13 @@
 
 using namespace std;
 
-int main(int argc, char *argv[]) {
-    
+int main(int argc, char *argv[])
+{
+
     int a = 2, b = 3, c = 4;
     int *pa = &a;
     int *pb = &b;
-    int *pc = &c;  
+    int *pc = &c;
     cout << "Value of pointer pa is: " << pa << endl;
     cout << "Value of pointer pb is: " << pb << endl;
     cout << "Value of pointer pc is: " << pc << endl;
